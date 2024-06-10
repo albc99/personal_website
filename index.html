@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Kwonyeong (Albert) Cho</h1>
+
+          <p class="title">Computer Science Graduate</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">albc9909@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (517) 249-0688</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/kwonyeongcho/" class="contact-link" target="_blank">LinkedIn Profile</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>East Lansing, Michigan, USA</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/albc99" class="contact-link" target="_blank">GitHub Profile</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+        </ul>
+      </nav>
+      
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Computer Science graduate from Michigan State University with a passion for innovative technology like software development and machine learning. I have hands-on experience in both backend and frontend development, specializing in Python, Java, JavaScript, and various modern frameworks. During my time at Michigan State, I led research on Visual Language Models and collaborated on impactful projects like the Enhanced Video Assistant and an egocentric vision dataset.
+            </p>
+
+           <p>In addition to my technical skills, I served as President of the Korean Student Organization, organizing events and advocating for student well-being. My leadership and technical expertise have been recognized with several awards, including an International Fellowship Grant and the Auto-Owners Exposition Award.
+
+            I'm fluent in English, Korean, and Chinese, and I enjoy connecting with diverse communities. Feel free to connect with me on LinkedIn or check out my projects on GitHub.</p> 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Interested fields</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Vision</h4>
+
+                <p class="service-item-text">
+                  Video Language Models and Video Diffusion Models
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Michigan State University - College of Engineering</h4>
+
+              <span>2018 — 2024</span>
+
+              <p class="timeline-text">
+                Bachelor's degree in Computer Science
+
+                <p>Gap year due to military service in South Korea</p>
+              </p>
+
+            </li>
+
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shanghai American School</h4>
+
+              <span>2014 - 2018</span>
+
+              <p class="timeline-text">
+                Highschool diploma with multiple Advanced Placement credits achieved
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Undergraduate Researcher</h4>
+              <span>Action Lab - MSU</span>
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                • Designed and conducted research on state-of-the-art Visual Language Models and Video Diffusion Models to enhance performance in specific application domains
+               <br>• Created and submitted a proposal on a novel Bi-directional Temporal Diffusion Model to SONY for grant consideration
+               <br>• Initiated research on an egocentric vision dataset focusing on human
+               collaboration
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sergeant</h4>
+              <span>Republic of Korea Army</span>
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                • Served and discharged from ROK Army as Signaller, Sergeant
+                <br>• Handled tasks regarding communications and network operation/maintanence
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Skills</h3>
+        
+          <ul class="skills-list content-card">
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Docker</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Azure</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">TensorFlow</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">PyTorch</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Numpy</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Pandas</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JSON</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Spring Boot</h5>
+              </div>
+            </li>
+        
+          </ul>
+        
+        </section>
+        
+
+      </article>
+
+
+
+
+      <!--
+        - #CV
+      -->
+
+      <article class="cv" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="cv">
+              <a href="#">
+          
+                <h3 class="project-title">Enhanced Video Assistant</h3>
+          
+                <p class="project-category">Capstone - MSU | Jan 2024 – May 2024</p>
+                <p class="project-text">
+                  • Led a team of 4 in the full-stack development of an automated video editing web application, under the management of TechSmith, a company specialized in video capture software.
+                  <br>• Architected and implemented backend services to automatically condense lengthy videos into concise summaries using Azure cloud services.
+                  <br>• Developed AI-driven video feedback generator using OpenAI APIs to provide real-time suggestions for improving video content.
+                  <br>• Utilized modern technologies such as Python, JavaScript, React, FAST API, and Git for efficient and scalable application development.
+                  <br>• Conducted rigorous testing and debugging to ensure the application's performance and reliability, resulting in a 30% increase in video editing efficiency for users.
+                </p>
+          
+              </a>
+            </li>
+          
+            <li class="project-item active" data-filter-item data-category="cv">
+              <a href="#">
+          
+                <h3 class="project-title">Egocentric Human Collaboration Dataset</h3>
+          
+                <p class="project-category">Action Lab | Dec 2023 – Feb 2024</p>
+                <p class="project-text">
+                  • Spearheaded initial research on egocentric vision datasets focusing on human collaboration, aiming to enhance the performance of Vision Language Models (VLMs) in predicting collaborative outcomes.
+                  <br>• Conducted comprehensive benchmark analyses of existing datasets and developed new protocols for data collection and annotation.
+                  <br>• Collaborated with a multidisciplinary team to implement state-of-the-art (SOTA) models using Python, PyTorch, and TensorFlow, resulting in improved model accuracy and robustness.
+                  <br>• Presented findings at lab meetings and contributed to research papers submitted to top-tier computer vision conferences.
+                  <br>• The research paved the way for new approaches in understanding human collaborative behavior through advanced computer vision techniques.
+                </p>
+          
+              </a>
+            </li>
+          
+            <li class="project-item active" data-filter-item data-category="cv">
+              <a href="#">
+          
+                <h3 class="project-title">Animated Character Type Classification</h3>
+          
+                <p class="project-category">CSE404 – MSU | Jan 2024 – Apr 2024</p>
+                <p class="project-text">
+                  • Led a project on animated character type classification using machine learning techniques, as part of the CSE404 course.
+                  <br>• Trained and evaluated five different machine learning models (Decision Tree, SVM, MLP, CNN, ResNet152) to classify character types from animated images.
+                  <br>• Enhanced the initial dataset from 1,000 images to 8,000 images using Generative Adversarial Networks (GANs), significantly improving the dataset's diversity and robustness.
+                  <br>• Achieved an accuracy improvement up to 88% by fine-tuning the models and employing advanced data augmentation techniques.
+                  <br>• Utilized Python, PyTorch, TensorFlow, and Jupyter for model development, training, and evaluation.
+                  <br>• Documented the project process and findings in a detailed report, contributing valuable insights to the field of animated character recognition.
+                </p>
+          
+              </a>
+            </li>
+          
+            <li class="project-item active" data-filter-item data-category="cv">
+              <a href="#">
+          
+                <h3 class="project-title">Embedded Face Recognition Module with IR Sensor</h3>
+          
+                <p class="project-category">Side Project | Dec 2023 – Current</p>
+                <p class="project-text">
+                  • Initiated a side project to develop an embedded face recognition module integrated with an infrared (IR) sensor for enhanced security applications.
+                  <br>• Designed and implemented the hardware setup using Raspberry Pi, IR sensors, and a camera module to capture high-quality images in various lighting conditions.
+                  <br>• Developed the face recognition algorithm using OpenCV and deep learning techniques, achieving high accuracy in identifying faces under different scenarios.
+                  <br>• Implemented real-time data processing and analysis to detect and recognize faces, ensuring fast and reliable performance.
+                  <br>• Integrated the module with a cloud-based database to store and manage user data securely.
+                  <br>• Continuously improving the system by incorporating feedback and testing in real-world environments to ensure robustness and reliability.
+                </p>
+          
+              </a>
+            </li>
+          
+          </ul>
+          
+
+        </section>
+
+      </article>
+
+
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
